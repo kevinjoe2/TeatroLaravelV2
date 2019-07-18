@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('clientes', 'ClientesController@index'); 
+
+Route::get('resevas', 'ReservasController@index'); 
